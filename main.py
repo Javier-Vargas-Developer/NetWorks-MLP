@@ -1,5 +1,3 @@
-# main.py
-
 import numpy as np
 from network import *
 
@@ -21,6 +19,6 @@ plt.plot(network.losses, color="#3b82f6", linewidth=2)
 plt.xlabel("Epoch")
 plt.ylabel("Loss (MSE)")
 plt.title("Entrenamiento XOR")
-plt.yscale("log")  # opcional, se ve mejor cuando el loss baja mucho
+plt.yscale("log")
 plt.tight_layout()
 plt.show()
